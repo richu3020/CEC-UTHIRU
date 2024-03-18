@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christian Empowerment Center</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <!-- the header section -->
+    <section class="banner">
+        <nav>
+            <img src="logo.png" alt="" class="logo">
+            <div class="links" id="link">
+                <!-- this code is for close icon <i class="fa fa-times" ></i> and i have added javascript command for it to function-->
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">contact us</a></li>
+            
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="content">
+            <h1>Christian Empowerement Center (CEC) <br> Uthiru Assembly</h1>
+            <p>To be a Holy Spirit Empowered Evangelistic Family Church </p>
+            <a href="#" class="more">visit us to know more</a>
+        </div>
+    </section>
+
+    <!-- know us section. containss slogan, core values, mission and vision -->
+    <section class="know-us">
+        <h1>OUR SLOGAN</h1>
+            <P>WE CARE</P>
+            
+            <div class="row">
+                <div class="us-col">
+                    <h3>Our Vision</h3>
+                    <p>To be a Holy Spirit Empowered Evangelistic Family Church</p>
+                </div>
+                <div class="us-col">
+                    <h3>Mission Statement</h3>
+                    <p>To develop a family that knows God and makes Him known through Discipleship and Outreach</p>
+                </div>
+                <div class="us-col">
+                    <h3>Our Core Values</h3>
+                    <ul>
+                        <li>Love</li>
+                        <li>Integrity</li>
+                        <li>Accountability</li>
+                        <li>Family Focused</li>
+                        <li>Inclusivity</li>
+                        <li>Innovation</li>
+                    </ul>
+                </div>
+            </div>
+
+    </section>
+
+    <!-- branches -->
+    <section class="branches">
+        <h1>Our Kenyan Branches</h1>
+        <div class="row">
+            <div class="branch-col">
+                <img src="BRANCH ONE.jpg" alt="">
+                <div class="layer">
+                    <h3><a href="https://www.facebook.com/uthirukag/" target="_blank" class="branch"><i>CEC UTHIRU</i></a></h3>
+                </div>
+            </div>
+            <div class="branch-col">
+                <img src="BRANCH 2.jpg" alt="">
+                <div class="layer">
+                    <h3><a href="https://www.facebook.com/Kagdagorettird/" target="_blank" class="branch"><i>CEC DAGORETTI</i></a></h3>
+                </div>
+            </div>
+            <div class="branch-col"><img src="transformation.jpg" >
+                
+                <div class="layer">
+                    <h3><a href="https://kag-transformation-church.business.site/" target="_blank" class="branch"><i>CEC TRANSFORMATION</i></a></h3>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- testimonials -->
+    <section class="testimonials">
+        <h1>what our members say</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum adipisci mollitia repellat porro sit unde.</p>
+        <div class="testcol"></div>
+
+        
+    </section>
+
+
+
+
+
+    <!-- javascript of showmenu and hidemenu -->
+    <script>
+        var link = document.getElementById("link");
+        function showMenu(){
+            link.style.right = "0";
+        }
+        function hideMenu(){
+            link.style.right = "-200px";
+        }
+    
+    </script>
+</body>
+</html>
